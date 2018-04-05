@@ -1,0 +1,103 @@
+﻿<!--
+  Generated template for the NewPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Hebergement</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <!--AUBERGE DU CŒUR L’ENVOLÉE-->
+  <ion-card>
+
+    <img src="assets/Categories/Hebergement/AUBERGE.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.612969', '-73.781467', 'Auberge du coeur l envolée')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>AUBERGE DU CŒUR <br /> L’ENVOLÉE</h2>
+      <p> 1620, rue des Patriotes, Laval, QC, <br /> H7L 2N6</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 628-0907')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon>  450 628-0907
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="http://www.envolee.qc.ca">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+
+  <!--AVIRON, HÉBERGEMENT COMMUNAUTAIRE-->
+  <ion-card>
+
+    <img src="assets/Categories/Hebergement/aviron.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.575190', '-73.697111', 'AVIRON, HÉBERGEMENT COMMUNAUTAIRE')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>AVIRON, HÉBERGEMENT <br /> COMMUNAUTAIRE </h2>
+      <p> 1015, boul. des Laurentides, <br /> Laval, QC, H7G 2V8 </p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 933-6610')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 933-6610
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="http://www.laviron.org">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+
+  <!--BUREAU DE CONSULTATION JEUNESSE – BCJ-->
+  <ion-card>
+
+    <img src="assets/Categories/Hebergement/consultation_jeunesse.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.534953', '-73.735679', 'BUREAU DE CONSULTATION JEUNESSE')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>BUREAU DE CONSULTATION <br />JEUNESSE – BCJ</h2>
+      <p> 3696, boul. Lévesque Ouest, <br /> Laval, QC, H7V 1E8 </p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 688-2401')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 688-2401 Bureau de Laval
+      </button>
+      </ion-item>
+    <ion-item>
+      <button (click)="callNumber('514 270-9760')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 514 270-9760 Ligne d'intervention
+      </button>
+      </ion-item>
+    <ion-item>
+      <button ion-button icon-left clear item-end>
+        <a href="http://www.bcj14-25.org">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+
+</ion-content>

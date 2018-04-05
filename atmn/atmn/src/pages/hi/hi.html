@@ -1,0 +1,63 @@
+﻿<!--
+  Generated template for the HiPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Handicapes et Incapacités</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <!--ASSOCIATION DE LAVAL POUR LA DÉFICIENCE INTELLECTUELLE – ALDI-->
+  <ion-card>
+
+    <img src="assets/Categories/Handicapes et Incapacites/Aldi.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.600025', ' -73.732851', 'ALDI')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>ASSOCIATION DE LAVAL POUR <br />LA DÉFICIENCE <br />INTELLECTUELLE – ALDI</h2>
+      <p> 73, boul. Saint-Elzéar Ouest, <br />Laval, QC, H7M 1E7 </p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 972-1010')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 972-1010
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="http://www.aldi1959.com">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--ASSOCIATION QUÉBÉCOISE DES TROUBLES D’APPRENTISSAGE – AQETA, SECTION LAVAL-->
+  <ion-card>
+
+    <img src="assets/Categories/Handicapes et Incapacites/AQETA.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.567968', ' -73.682261', 'AQETA')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>ASSOCIATION QUÉBÉCOISE <br />DES TROUBLES <br />D’APPRENTISSAGE – AQETA,<br /> SECTION LAVAL</h2>
+      <p>  100, rue Tourangeau E, Laval, QC,<br /> H7G 1L1, Canada </p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 668-0123')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 668-0123
+      </button>
+     
+    </ion-item>
+
+  </ion-card>
+
+</ion-content>

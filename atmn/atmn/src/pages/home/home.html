@@ -1,0 +1,135 @@
+﻿<ion-header>
+  <script src="cordova.js"></script>
+  <script src="../../../www/js/app.js"></script>
+  <script src="../../../www/js/controllers.js"></script>
+
+  <link href="build/main.css" rel="stylesheet">
+  <ion-navbar>
+    <ion-buttons end>
+    <button ion-button icon-only >
+      <ion-icon name="map"></ion-icon>
+    </button>
+    </ion-buttons>
+    <ion-title>
+      As-tu mon numéro?
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<body>
+  <ion-content class="home" padding>
+   
+
+      
+        <br />
+        <ion-header text-align="center">
+          Catégories
+        </ion-header>
+        <!--photogrid-->
+          <ion-slides pager>
+            <!--premiere rangée-->
+            <ion-slide>
+              <ion-row class="center">
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_01_O-120x120 - Copy.png" alt="placeholder" (click)="EEBloadpage()">
+                  </ion-item>
+                </ion-col>
+
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_02_O-120x120 - Copy.png" alt="placeholder" (click)="Depannageloadpage()">
+
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+              <!--deuxème rangée-->
+              <ion-row class="center">
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_03_O-120x120 - Copy.png" alt="placeholder" (click)="Dependanceloadpage()">
+
+                  </ion-item>
+                </ion-col>
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_04S_O-120x120 - Copy.png" alt="placeholder" (click)="Hebergementloadpage()">
+
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+
+              <!--troisieme rangee-->
+
+              <ion-row class="center">
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_05_O-120x120 - Copy.png" alt="placeholder" (click)="iajloadPage()">
+
+                  </ion-item>
+                </ion-col>
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_08_O-120x120 - Copy.png" alt="placeholder" (click)="vasloadPage()">
+
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+            </ion-slide>
+            <ion-slide>
+              <!--quatrieme rangee-->
+              <ion-row class="center">
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_09A_O-120x120.png" alt="placeholder" (click)="jdloadPage()">
+
+                  </ion-item>
+                </ion-col>
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_10_O-120x120.png" alt="placeholder" (click)="cciloadPage()">
+
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+
+              <!--cinquieme rangee-->
+
+              <ion-row class="center">
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_11_O-120x120.png" alt="placeholder" (click)="sosloadPage()">
+
+                  </ion-item>
+                </ion-col>
+                <ion-col col-6>
+
+
+                  <ion-item>
+                    <img src="assets/img/icon_12S_O-120x120.png" alt="placeholder" (click)="hiloadPage() ">
+
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+              <!-- Sixieme rangee -->
+              <ion-row class = "center">
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_07_O-150x150.png" alt="placeholder" (click)="SMloadPage() ">
+
+                  </ion-item>
+
+                </ion-col>
+
+                <ion-col col-6>
+                  <ion-item>
+                    <img src="assets/img/icon_06S_O-120x120 - Copy.png" alt="placeholder" (click)="SASLoadPage()">
+                  </ion-item>
+
+                </ion-col>
+
+              </ion-row>
+            </ion-slide>
+
+          </ion-slides>
+  </ion-content>
+</body>

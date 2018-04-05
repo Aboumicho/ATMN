@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service aux Familles </title>
+</head>
+<body>
+
+<ion-content padding>
+
+        <!--BUREAU D’AIDE ET D’ASSISTANCE FAMILIALE DE PLACE ST-MARTIN-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/BAAF.png">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.570059', '-73.730298', 'Bureau d Aide') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>BUREAU D’AIDE ET <br/>D’ASSISTANCE FAMILIALE <br/>DE PLACE ST-MARTIN</h2>
+                <p>856, rue Dumouchel, bureau 101,<br/> Laval, QC, H7S 1J8 </p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 681-9979')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 681-9979
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.baaf-psm.org">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+        <!--CENTRE DE PÉDIATRIE SOCIALE LAVAL-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/Pediatrie.jpg">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.568843', '-73.734561', 'Centre de Pediatrie sociale') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>CENTRE DE PÉDIATRIE <br/>SOCIALE LAVAL</h2>
+                <p>856, rue Dumouchel, bureau <br/>101, Laval, QC, H7S 1J8 </p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 682-0277')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 682-0277
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.cpslaval.org">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+
+        <!--ENFANT D’ABORD-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/enfantdabord.png">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.534786', '-73.738603', 'Enfant dabord') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>ENFANT D’ABORD</h2>
+                <p>3781, boul. Lévesque Ouest,<br/> bureau 207, Laval, QC, H7V 1G5</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 681-1154')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 681-1154
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.lenfantdabord.org/accueil/">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+        <!--L’ENTRAIDE PONT-VIAU ET LAVAL-DES-RAPIDES-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/entraidepontviauldr.png">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.574325', '-73.693707', 'Entraide') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>L’ENTRAIDE PONT-VIAU ET LAVAL-DES-RAPIDES</h2>
+                <p>664, rue Saint-André, Laval, <br/>QC, H7G 3A5</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 663-8039')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 663-8039
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.lentraidelaval.ca">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+        <!--LA PARENTELE DE LAVAL-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/parentele.png">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.554732', '-73.704435', 'Parentele Laval') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>LA PARENTELE DE LAVAL</h2>
+                <p> 695, avenue Léo-Lacombe,<br/> Laval, QC, H7N 3Y7</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 662-9835')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 662-9835
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.laparenteledelaval.com">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+        <!--LA PLACE 0-5 ANS-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/place05.png">
+
+
+            <ion-item>
+                <h2>LA PLACE 0-5 ANS</h2>
+
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('514 270-5055')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 514 270-5055
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="https://www.laplace0-5.com/in/faces/homeInBook.xhtml">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+
+        <!--Ligne 24/7-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/Ligne-parents-1.jpg">
+
+
+            <ion-item>
+                <h2>Ligne Parents 24/7</h2>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('1 800 361-5085')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 1 800 361-5085
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.ligneparents.com">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+        <!--Ligue La Leche-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/leche.jpg">
+
+
+            <ion-item>
+                <h2>Ligne La Leche</h2>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('1 866 255-2483')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 1 866 ALLAITER (255-2483)
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.allaitement.ca">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+
+        <!--MAISON DE LA FAMILLE DE ST-FRANÇOIS-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/maisondelafamillestfrancois.png">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.662835', '-73.579752', 'Maison de la famille de St-Francois') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>MAISON DE LA FAMILLE DE <br/>ST-FRANÇOIS</h2>
+                <p>8190, boul. Lévesque Est, Laval, QC, H7A 1V4</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 665-6510')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 665-6510
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.maisonfamillestfrancois.com">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+
+        <!--MAISON DE LA FAMILLE DU CENTRE COMMUNAUTAIRE VAL-MARTIN-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/ccvm-logo.png">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.541889', '-73.744827', 'Maison de la famille de Val-Martin') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>MAISON DE LA FAMILLE DU <br/>CENTRE COMMUNAUTAIRE <br/>VAL-MARTIN</h2>
+                <p>828, 79e Avenue, <br/>Laval, QC, <br/>H7V 3J1</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 973-8787')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 973-8787
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.ccvm.org">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+
+        <!--MAISON DE LA FAMILLE LAVAL-OUEST-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/maisonfamillelavalouest.png">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.540534', '-73.871458', 'Maison de la famille Laval-Ouest') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>MAISON DE LA FAMILLE<br/> LAVAL-OUEST</h2>
+                <p> 7190, 21e Avenue, Laval, QC,<br/> H7R 3G8</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 962-3367')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 962-3367
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.maisonfamille-lo.sitew.ca/#Accueil.H">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+        <!--MAISON DE QUARTIER DE FABREVILLE-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/MQF.jpg">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.579367', '-73.790899', 'Maison de Quartier de Fabreville') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>MAISON DE QUARTIER DE<br/> FABREVILLE</h2>
+                <p>  3031, boul. Dagenais Ouest, <br/> Laval, QC, H7P 1T4</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 625-5453')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 625-5453
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.mqfabreville.org">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+        <!--MAISON DE QUARTIER DE Vimont-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/MQV.jpg">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.598537', '-73.722611', 'Maison de Quartier de Vimont') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>MAISON DE QUARTIER <br/>VIMONT FABREVILLE</h2>
+                <p>  1747, rue Lavoie, Laval, QC, <br/> H7M 2N1</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 662-0580 ')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 662-0580
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.maisonquartiervimont.com">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+        <!--MAISON DES ENFANTS LE DAUPHIN DE LAVAL-->
+        <ion-card>
+
+            <img src="assets/Categories/Service aux Familles/Maison-des-enfants-le-Dauphin.png">
+
+
+            <ion-item (click)=" DirectionsloadPage('45.550963', '-73.757310', 'MAISON DES ENFANTS LE DAUPHIN DE LAVAL') ">
+                <ion-icon name="pin" item-start large></ion-icon>
+                <h2>MAISON DES ENFANTS LE <br/>DAUPHIN DE LAVAL</h2>
+                <p>   799, rue Loranger, Laval, QC, <br/>H7V 1Z5</p>
+            </ion-item>
+
+            <ion-item>
+                <button (click)="callNumber('450 978-2664')" ion-button icon-left clear item-start>
+                    <ion-icon name="call"></ion-icon> 450 978-2664
+                </button>
+                <button ion-button icon-left clear item-end>
+                    <a href="http://www.maisondesenfants.qc.ca">
+                        <ion-icon name="globe"></ion-icon>
+                        Page Web
+                    </a>
+                </button>
+            </ion-item>
+
+        </ion-card>
+
+
+        <!-- DEUXIEME PAGE -->
+
+
+            <!--NOURRI-SOURCE LAVAL-->
+            <ion-card>
+
+                <img src="assets/Categories/Service aux Familles/Nourri-source.png">
+
+
+                <ion-item (click)=" DirectionsloadPage('45.550304', '-73.749623', 'Nourri-Source Laval') ">
+                    <ion-icon name="pin" item-start large></ion-icon>
+                    <h2>NOURRI-SOURCE LAVAL</h2>
+                    <p> 1450, boul. Pie-X, Laval, Qc,<br/> H7V 3C1</p>
+                </ion-item>
+
+                <ion-item>
+                    <button (click)="callNumber(' 450 910-1430')" ion-button icon-left clear item-start>
+                        <ion-icon name="call"></ion-icon>  450 910-1430
+                    </button>
+                    <button ion-button icon-left clear item-end>
+                        <a href="http://www.laval.nourri-source.org">
+                            <ion-icon name="globe"></ion-icon>
+                            Page Web
+                        </a>
+                    </button>
+                </ion-item>
+
+            </ion-card>
+
+            <!--PREMIERS PAS LAVAL-->
+            <ion-card>
+
+                <img src="assets/Categories/Service aux Familles/Premiers-pas-Laval.png">
+
+
+                <ion-item>
+
+                    <h2>PREMIERS PAS LAVAL</h2>
+                    <p> Pont Viau, Laval</p>
+                </ion-item>
+
+                <ion-item>
+                    <button (click)="callNumber(' 514 830-4833')" ion-button icon-left clear item-start>
+                        <ion-icon name="call"></ion-icon>  514 830-4833
+                    </button>
+                    <button ion-button icon-left clear item-end>
+                        <a href="http://www.premierspasquebec.org">
+                            <ion-icon name="globe"></ion-icon>
+                            Page Web
+                        </a>
+                    </button>
+                </ion-item>
+
+            </ion-card>
+
+            <!--REGROUPEMENT DES FAMILLES MONOPARENTALES ET RECOMPOSÉES DE LAVAL-->
+            <ion-card>
+
+                <img src="assets/Categories/Service aux Familles/relaisfamillesmonoparentales.png">
+
+
+                <ion-item (click)=" DirectionsloadPage('45.615022', '-73.781225', 'Regroupement des familles monoparentales et recomposes') ">
+                    <ion-icon name="pin" item-start large></ion-icon>
+                    <h2>REGROUPEMENT DES FAMILLES <br/>MONOPARENTALES ET <br/>RECOMPOSÉES DE LAVAL</h2>
+                    <p> 140, rue Nadon, Laval, QC, H7L 1T5</p>
+                </ion-item>
+
+                <ion-item>
+                    <button (click)="callNumber('450 622-0524')" ion-button icon-left clear item-start>
+                        <ion-icon name="call"></ion-icon>  450 622-0524
+                    </button>
+                    <button ion-button icon-left clear item-end>
+                        <a href="http://www.rfmrl.org">
+                            <ion-icon name="globe"></ion-icon>
+                            Page Web
+                        </a>
+                    </button>
+                </ion-item>
+
+            </ion-card>
+
+            <!--RELAIS DU QUARTIER DE ST-VINCENT-DE-PAUL-->
+            <ion-card>
+
+                <img src="assets/Categories/Service aux Familles/relaisquartierstvincent.png">
+
+
+                <ion-item (click)=" DirectionsloadPage('45.615614', '-73.646387', 'RELAIS DU QUARTIER DE ST-VINCENT-DE-PAUL') ">
+                    <ion-icon name="pin" item-start large></ion-icon>
+                    <h2>RELAIS DU QUARTIER DE <br/>ST-VINCENT-DE-PAUL</h2>
+                    <p>  1111, Place Jean-Eudes-Blanchard, <br/>Laval, QC, H7C 1T1</p>
+                </ion-item>
+
+                <ion-item>
+                    <button (click)="callNumber('450 664-4711')" ion-button icon-left clear item-start>
+                        <ion-icon name="call"></ion-icon>  450 664-4711
+                    </button>
+                    <button ion-button icon-left clear item-end>
+                        <a href="http://pages.videotron.com/rqsvp/">
+                            <ion-icon name="globe"></ion-icon>
+                            Page Web
+                        </a>
+                    </button>
+                </ion-item>
+
+            </ion-card>
+
+            <!--RELAIS FAMILIAL D’AUTEUIL-->
+            <ion-card>
+
+                <img src="assets/Categories/Service aux Familles/Relais-familial-Auteuil-e1489833824570.png">
+
+
+                <ion-item (click)=" DirectionsloadPage('45.635101', '-73.753564', 'RELAIS FAMILIAL D’AUTEUIL') ">
+                    <ion-icon name="pin" item-start large></ion-icon>
+                    <h2>RELAIS FAMILIAL D’AUTEUIL</h2>
+                    <p>   6135, boul. des Laurentides, <br/>suite 1, Laval, QC, <br/>H7H 2V3</p>
+                </ion-item>
+
+                <ion-item>
+                    <button (click)="callNumber('450 628-3246')" ion-button icon-left clear item-start>
+                        <ion-icon name="call"></ion-icon>  450 628-3246
+                    </button>
+                    <button ion-button icon-left clear item-end>
+                        <a href="http://www.relais-familial-auteuil.org">
+                            <ion-icon name="globe"></ion-icon>
+                            Page Web
+                        </a>
+                    </button>
+                </ion-item>
+
+            </ion-card>
+
+            <!--REPÈRE, RELATION D’ENTRAIDE POUR UNE PATERNITÉ RENOUVELÉE-->
+            <ion-card>
+
+                <img src="assets/Categories/Service aux Familles/repere-1.png">
+
+
+                <ion-item (click)=" DirectionsloadPage('45.552352', '-73.671602', 'REPÈRE, RELATION D’ENTRAIDE POUR UNE PATERNITÉ RENOUVELÉE') ">
+                    <ion-icon name="pin" item-start large></ion-icon>
+                    <h2>REPÈRE, RELATION D’ENTRAIDE <br/>POUR UNE PATERNITÉ <br/>RENOUVELÉE</h2>
+                    <p> 10780, rue Laverdure, Montréal, <br/>QC, H3L 2L9</p>
+                </ion-item>
+
+                <ion-item>
+                    <button (click)="callNumber('514 381-3511')" ion-button icon-left clear item-start>
+                        <ion-icon name="call"></ion-icon>  514 381-3511
+                    </button>
+                    <button ion-button icon-left clear item-end>
+                        <a href="http://www.repere.org">
+                            <ion-icon name="globe"></ion-icon>
+                            Page Web
+                        </a>
+                    </button>
+                </ion-item>
+
+            </ion-card>
+
+
+
+
+
+
+</ion-content>
+
+
+
+</body>
+</html>

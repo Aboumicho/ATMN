@@ -1,0 +1,261 @@
+﻿<!--
+  Generated template for the NewPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>École, Emploi et Bénévolat</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding ng-app="atmn">
+ <!--Every company-->
+ <!--Allo Prof-->
+
+  <!---->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/AlloProf-150x150.png">
+    
+
+    <ion-item>
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>ALLO PROF</h2>
+      <p>Montreal</p>
+    </ion-item>
+    <ion-item class="item item-text-wrap" style="word-wrap: break-word; word-break: break-all; white-space: normal; overflow: initial;"><p>Aide aux devoirs et aux leçons pour les élèves (primaire, secondaire, formation générale aux adultes) et leurs parents.</p></ion-item>
+    <ion-item>
+      <button (click)="callNumber('1-888 776-4455')" ion-button icon-left clear item-start >
+         <ion-icon name="call"></ion-icon> {{AlloProf}} 
+      </button>
+
+      <button ion-button icon-left clear item-end>
+        <a href="http://alloprof.com/">
+          <ion-icon name="globe" ></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--CAFARDEUR-->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/Cafardeur-150x150.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.574391', '-73.695923', 'Cafardeur')" >
+      <ion-icon name="pin" item-start large ></ion-icon>
+      <h2>CAFARDEUR, CAFÉ ÉTUDIANT <br /> 14-17 ANS</h2>
+      <p> 803, boul. des Laurentides, Laval, <br /> QC, H7G 4Y2</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 490-1435')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> (450) 490-1435
+      </button>
+      
+    </ion-item>
+
+  </ion-card>
+  <!--Carrefour jeuness-emploi de Laval-->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/Carrefour-jeunesse-emploi-Laval-150x117.png" />
+
+
+    <ion-item (click)="DirectionsloadPage('45.581310', '-73.705570', 'Carrefour Jeunesse-Emploi de Laval')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>CARREFOUR JEUNESSE- <br /> EMPLOI DE LAVAL</h2>
+      <p>1, Place Laval, bureau 110, Laval,<br /> QC, H7N 1A1</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 967-2535')" ion-button icon-left clear item-start>
+      <ion-icon name="call"></ion-icon> 450 967-2535
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="http://www.cjelaval.qc.ca/">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--emploi quebec-->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/emploi quebec.png">
+
+
+    <ion-item (click)="DirectionsloadPage('45.580889', '-73.705258', 'Emploi Quebec')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>CENTRES LOCAUX D’EMPLOI <br /> DE LAVAL</h2>
+      <p>3 Place Laval, Laval, QC H7N 1A2</p>
+    </ion-item>
+
+    <ion-item >
+      <button (click)="callNumber('450 972-3050')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 972-3050
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="http://placement.emploiquebec.gouv.qc.ca/mbe/ut/rechroffr/erechroffr.asp?CL=french">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--CNESST -->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/CNESST.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.593446', '-73.719294', 'CNESST')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>COMISSION DES NORMES, DE <br /> L’ÉQUITÉ, DE LA SANTÉ ET DE <br /> LA SÉCURITÉ DU TRAVAIL <br /> – CNESSST</h2>
+      <p>1200, boul. Chomedey, Laval, QC, <br /> H7V 3Z3</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('1 844 838-0808')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 1 844 838-0808
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="www.cnesst.gouv.qc.ca">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--commission scolaire de laval -->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/commission scolaire de laval.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.573519', '-73.719989', 'Commission Scolaire de Laval')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>COMMISSION SCOLAIRE DE LAVAL</h2>
+      <p>955, boul. Saint-Martin Ouest, <br /> Laval, QC, H7S 1M5</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 662-7000')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 662-7000
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="http://www2.cslaval.qc.ca/?">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--Commission scolaire Sir Wilfrid Laurier-->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/comm_scol_sir_wilfrid_laurier.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.573519', '-73.719989', 'Commission Scolaire Sir Wilfrid Laurier')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>COMMISSION SCOLAIRE SIR-WILFRID-LAURIER</h2>
+      <p>235, Montée Lesage, Rosemère,<br /> QC, J7A 4Y6</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('1 866 621-5600')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 1 866 621-5600
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="www.swlauriersb.qc.ca">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--DIAPASON – JEUNESSE-->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/diapason jeunesse.jpg">
+
+
+    <ion-item (click)="DirectionsloadPage('45.573569', '-73.692490', 'Diapason Jeunesse')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>DIAPASON JEUNESSE</h2>
+      <p>599, rue Saint-André, Laval, QC,<br /> H7G 3A4</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 668-8839')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 668-8839
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="http://diapasonjeunesse.ca/">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--FERME JEUNE AU TRAVAIL-->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/Fermejeunesautravail.gif">
+
+
+    <ion-item (click)="DirectionsloadPage('45.618341', '-73.699303', 'Jeunes Au Travail')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>FERME JEUNE AU TRAVAIL</h2>
+      <p>2595, rang du Haut-St-François, <br /> Laval, QC, H7E 4P2</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 661-1251')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 661-1251
+      </button>
+    </ion-item>
+
+  </ion-card>
+  <!--Projet ça cliq-->
+  <ion-card>
+
+    <img src="assets/Categories/Ecole emploi et benevolat/projetcacliq.jpg">
+
+    <ion-item (click)="DirectionsloadPage('45.542156', '-73.744881', 'Projet ça cliq')">
+      <ion-icon name="pin" item-start large></ion-icon>
+      <h2>PROJET ÇA CLIQ</h2>
+      <p>828, 79e Avenue, Laval, QC, <br /> H7V 3J1</p>
+    </ion-item>
+
+    <ion-item>
+      <button (click)="callNumber('450 973-8787')" ion-button icon-left clear item-start>
+        <ion-icon name="call"></ion-icon> 450 973-8787
+      </button>
+      <button ion-button icon-left clear item-end>
+        <a href="http://www.ccvm.org">
+          <ion-icon name="globe"></ion-icon>
+          Page Web
+        </a>
+      </button>
+    </ion-item>
+
+  </ion-card>
+
+</ion-content>
+
